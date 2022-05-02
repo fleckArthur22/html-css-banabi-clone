@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: rgb(250, 0, 80);
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  height: 975px;
+}
+
+.header-top {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.logo {
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.header-middle {
+  width: 650px;
+}
+
+.icons-button-top {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraphs p {
+  margin-bottom: 20px;
+
+  text-align: left;
+  color: white;
+}
+
+.icons-button {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.last-button {
+  margin-bottom: 25px;
+}
+
+.tel-img img {
+  width: 525px;
+}
+
+button {
+  padding: 13px 25px;
+  border: none;
+  border-radius: 7px;
+  color: rgb(250, 0, 80);
+  font-weight: bold;
+  background-color: white;
+}
+
+.icons img,
+.button button {
+  margin-left: 5px;
+}
+
+.middle {
+  text-align: center;
+  margin-top: 90px;
+}
+
+.middle-title {
+  margin-bottom: 25px;
+  color: rgb(250, 0, 80);
+}
+
+.middle-cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.card {
+  width: 499px;
+  border: 1px solid rgb(214, 214, 214);
+  padding: 35px 30px;
+}
+
+.card img {
+  margin-bottom: 10px;
+}
+
+.card h4 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: rgb(179, 179, 179);
+}
+
+.middle-use {
+  margin-left: 38%;
+}
+
+.use-card {
+  width: 500px;
+}
